@@ -1,12 +1,11 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import { StatusBar } from "expo-status-bar";
+import {StyleSheet, Text, View} from "react-native";
+import {StatusBar} from "expo-status-bar";
 
 export default () => {
   return (
     <View style={s.container}>
       <StatusBar style="auto" />
-
       <Text style={s.welcomeText}>Happy coding!</Text>
     </View>
   );
